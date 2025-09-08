@@ -19,6 +19,13 @@ header {
   color: #fff;
   padding: 2rem 0;
   text-align: center;
+  position: relative;
+  padding: 2rem 0;
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
 }
 
 header h1 {
@@ -28,6 +35,15 @@ header h1 {
 header p {
   font-size: 1.2rem;
   margin-top: 10px;
+}
+
+/* Imagem do cabeçalho */
+.header-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  margin-top: 20px;
 }
 
 /* Estilos do conteúdo */
@@ -65,6 +81,16 @@ main {
 #menu li {
   font-size: 1.2rem;
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+#menu .menu-image {
+  margin-right: 15px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 /* Localização e Contato */
@@ -79,6 +105,13 @@ main {
 h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
+}
+
+.location-image {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
 }
 
 /* Link de email */
