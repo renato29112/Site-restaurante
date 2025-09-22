@@ -93,6 +93,41 @@ main {
   border-radius: 5px;
 }
 
+/* Seção de Sobremesas */
+#sobremesas {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+#sobremesas h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#sobremesas ul {
+  list-style: none;
+  padding: 0;
+}
+
+#sobremesas li {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+#sobremesas .menu-image {
+  margin-right: 15px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
 /* Localização e Contato */
 #localizacao, #contato {
   background-color: #fff;
