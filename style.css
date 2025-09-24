@@ -58,6 +58,41 @@ main {
   max-width: 1200px;
 }
 
+/* Entradas */
+#entradas {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+#entradas h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#entradas ul {
+  list-style: none;
+  padding: 0;
+}
+
+#entradas li {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+#entradas .menu-image {
+  margin-right: 15px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
 /* Cardápio */
 #menu {
   background-color: #fff;
